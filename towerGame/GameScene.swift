@@ -21,8 +21,6 @@ class GameScene: SKScene {
     
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         /* Called when a touch begins */
-        var uis=UIController()
-        uis.touchNeedConfirm(touches, Scene: self,mode: EditMode.TowerPlaceEditMode)
         
        
     }

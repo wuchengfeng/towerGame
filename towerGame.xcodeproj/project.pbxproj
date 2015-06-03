@@ -18,7 +18,6 @@
 		5159DD5B1B1D429300C64AA0 /* UIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5159DD5A1B1D429300C64AA0 /* UIController.swift */; };
 		5159DD5D1B1D473800C64AA0 /* AllDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5159DD5C1B1D473800C64AA0 /* AllDataStruct.swift */; };
 		5159DD611B1D5C6D00C64AA0 /* EditScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5159DD601B1D5C6D00C64AA0 /* EditScene.swift */; };
-		5159DD661B1D937900C64AA0 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5159DD651B1D937900C64AA0 /* UI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +46,6 @@
 		5159DD5A1B1D429300C64AA0 /* UIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIController.swift; sourceTree = "<group>"; };
 		5159DD5C1B1D473800C64AA0 /* AllDataStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllDataStruct.swift; sourceTree = "<group>"; };
 		5159DD601B1D5C6D00C64AA0 /* EditScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditScene.swift; sourceTree = "<group>"; };
-		5159DD651B1D937900C64AA0 /* UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +139,6 @@
 			children = (
 				5159DD5A1B1D429300C64AA0 /* UIController.swift */,
 				5159DD3C1B1D3EF800C64AA0 /* GameViewController.swift */,
-				5159DD651B1D937900C64AA0 /* UI.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -256,7 +253,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5159DD3B1B1D3EF800C64AA0 /* GameScene.swift in Sources */,
-				5159DD661B1D937900C64AA0 /* UI.swift in Sources */,
 				5159DD5D1B1D473800C64AA0 /* AllDataStruct.swift in Sources */,
 				5159DD3D1B1D3EF800C64AA0 /* GameViewController.swift in Sources */,
 				5159DD371B1D3EF800C64AA0 /* AppDelegate.swift in Sources */,
@@ -459,6 +455,7 @@
 				5159DD561B1D3EF800C64AA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5159DD571B1D3EF800C64AA0 /* Build configuration list for PBXNativeTarget "towerGameTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +464,7 @@
 				5159DD591B1D3EF800C64AA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,14 +9,6 @@
 import Foundation
 import SpriteKit
 class EditScene: GameScene {
-    override func didMoveToView(view: SKView) {
-        //加载场景，UI
-    }
-    
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
-        for var touch in touches{
-            if nod
-        }
-    }
+    //加载UI
 
 }
