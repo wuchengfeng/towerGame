@@ -22,18 +22,19 @@ class UIController: SKNode {
         }
     }
     func touchBack(mode:EditMode){
-        
+        println("touch the back button")
     }
     func touchOK(mode:EditMode){
-        
+        println("touch the OK button")
     }
     func touchCancel(mode:EditMode){
-        
+        println("touch the cancel button")
     }
     func UILoad(scene:GameScene,mode:EditMode){
-        
+        println("UI load success")
     }
     func addButton(scene:GameScene){
+        println("you have add the UI button")
         
     }
 }

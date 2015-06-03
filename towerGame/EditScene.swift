@@ -10,5 +10,11 @@ import Foundation
 import SpriteKit
 class EditScene: GameScene {
     //加载UI
+    override func didMoveToView(view: SKView) {
+        let UIcontroller=UIController()
+        UIcontroller.UILoad(self, mode: EditMode.TowerPlaceEditMode)
+    }
+    
+    
 
 }
