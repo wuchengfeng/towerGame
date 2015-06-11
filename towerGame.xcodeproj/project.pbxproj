@@ -18,6 +18,12 @@
 		5159DD5B1B1D429300C64AA0 /* UIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5159DD5A1B1D429300C64AA0 /* UIController.swift */; };
 		5159DD5D1B1D473800C64AA0 /* AllDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5159DD5C1B1D473800C64AA0 /* AllDataStruct.swift */; };
 		5159DD611B1D5C6D00C64AA0 /* EditScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5159DD601B1D5C6D00C64AA0 /* EditScene.swift */; };
+		516DFDFC1B26CEB100D9CD23 /* OK.png in Resources */ = {isa = PBXBuildFile; fileRef = 516DFDFB1B26CEB100D9CD23 /* OK.png */; };
+		516DFE331B26E72200D9CD23 /* 取消.png in Resources */ = {isa = PBXBuildFile; fileRef = 516DFE301B26E72200D9CD23 /* 取消.png */; };
+		516DFE341B26E72200D9CD23 /* 确定.png in Resources */ = {isa = PBXBuildFile; fileRef = 516DFE311B26E72200D9CD23 /* 确定.png */; };
+		516DFE361B26EB4100D9CD23 /* 光圈.png in Resources */ = {isa = PBXBuildFile; fileRef = 516DFE351B26EB4100D9CD23 /* 光圈.png */; };
+		516DFE3C1B27E96A00D9CD23 /* 保存.png in Resources */ = {isa = PBXBuildFile; fileRef = 516DFE3B1B27E96A00D9CD23 /* 保存.png */; };
+		516DFE3E1B27EC0B00D9CD23 /* TPoint.plist in Resources */ = {isa = PBXBuildFile; fileRef = 516DFE3D1B27EC0B00D9CD23 /* TPoint.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,12 @@
 		5159DD5A1B1D429300C64AA0 /* UIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIController.swift; sourceTree = "<group>"; };
 		5159DD5C1B1D473800C64AA0 /* AllDataStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllDataStruct.swift; sourceTree = "<group>"; };
 		5159DD601B1D5C6D00C64AA0 /* EditScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditScene.swift; sourceTree = "<group>"; };
+		516DFDFB1B26CEB100D9CD23 /* OK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OK.png; sourceTree = "<group>"; };
+		516DFE301B26E72200D9CD23 /* 取消.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消.png"; sourceTree = "<group>"; };
+		516DFE311B26E72200D9CD23 /* 确定.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "确定.png"; sourceTree = "<group>"; };
+		516DFE351B26EB4100D9CD23 /* 光圈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "光圈.png"; sourceTree = "<group>"; };
+		516DFE3B1B27E96A00D9CD23 /* 保存.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保存.png"; sourceTree = "<group>"; };
+		516DFE3D1B27EC0B00D9CD23 /* TPoint.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TPoint.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,11 @@
 				5159DD381B1D3EF800C64AA0 /* GameScene.sks */,
 				5159DD3E1B1D3EF800C64AA0 /* Main.storyboard */,
 				5159DD411B1D3EF800C64AA0 /* Images.xcassets */,
+				516DFE351B26EB4100D9CD23 /* 光圈.png */,
+				516DFE301B26E72200D9CD23 /* 取消.png */,
+				516DFE311B26E72200D9CD23 /* 确定.png */,
+				516DFE3B1B27E96A00D9CD23 /* 保存.png */,
+				516DFDFB1B26CEB100D9CD23 /* OK.png */,
 				5159DD431B1D3EF800C64AA0 /* LaunchScreen.xib */,
 				5159DD341B1D3EF800C64AA0 /* Supporting Files */,
 			);
@@ -138,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				5159DD5A1B1D429300C64AA0 /* UIController.swift */,
+				516DFE3D1B27EC0B00D9CD23 /* TPoint.plist */,
 				5159DD3C1B1D3EF800C64AA0 /* GameViewController.swift */,
 			);
 			name = Controller;
@@ -231,10 +249,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516DFE361B26EB4100D9CD23 /* 光圈.png in Resources */,
 				5159DD451B1D3EF800C64AA0 /* LaunchScreen.xib in Resources */,
+				516DFE3E1B27EC0B00D9CD23 /* TPoint.plist in Resources */,
 				5159DD421B1D3EF800C64AA0 /* Images.xcassets in Resources */,
 				5159DD391B1D3EF800C64AA0 /* GameScene.sks in Resources */,
 				5159DD401B1D3EF800C64AA0 /* Main.storyboard in Resources */,
+				516DFDFC1B26CEB100D9CD23 /* OK.png in Resources */,
+				516DFE331B26E72200D9CD23 /* 取消.png in Resources */,
+				516DFE3C1B27E96A00D9CD23 /* 保存.png in Resources */,
+				516DFE341B26E72200D9CD23 /* 确定.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

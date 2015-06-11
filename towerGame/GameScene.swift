@@ -16,31 +16,25 @@ class GameScene: SKScene {
         myLabel.text = "Hello, World!";
         myLabel.fontSize = 65;
         myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
+        myLabel.name="mylabel"
         self.addChild(myLabel)
+        
     }
     
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
-        /* Called when a touch begins */
         
+        var touch=(touches as NSSet).anyObject()?.locationInNode(self)
+        var nodetouch=nodeAtPoint(touch!)
+        println(touch)
+        var newEditScene=EditScene()
+        var scSize:CGSize=UIScreen.mainScreen().bounds.size
+        newEditScene.size=scSize
+        println(scSize)
+        self.view?.presentScene(newEditScene)
        
     }
    
     override func update(currentTime: CFTimeInterval) {
-        /* Called before each frame is rendered */
-        /*for touch in (touches as! Set<UITouch>) {
-        let location = touch.locationInNode(self)
-        
-        let sprite = SKSpriteNode(imageNamed:"Spaceship")
-        
-        sprite.xScale = 0.5
-        sprite.yScale = 0.5
-        sprite.position = location
-        
-        let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
-        
-        sprite.runAction(SKAction.repeatActionForever(action))
-        
-        self.addChild(sprite)
-        } */
+       
     }
 }
